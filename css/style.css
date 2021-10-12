@@ -8,9 +8,7 @@
     width: 82%;
 
 }
-.flexapi{
 
-}
 
 .twit-scroll p{
     font-size: 13px;
@@ -122,9 +120,6 @@
     font-weight:lighter;
 }
 
-.twit-scroll p{
-
-}
 .twit-scroll {
     margin-top: 80px;
 }
@@ -929,7 +924,18 @@ display: block;
         margin-left: 70px;
         margin-bottom: 50px;
     }
-
-
-
-
+}
+.withLink{
+    display: flex;
+    align-items: center;
+}
+.userHeader{
+    display: flex;
+    align-items: center;
+}
+.userHeader img, .userHeader h2{
+    margin: 0;
+}
+.twit-scroll > h3{
+    margin:10px 0
+}
