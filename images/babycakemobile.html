@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://dashboard.babycake.app/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width"><title>BabyCake Dashboard</title><link rel="shortcut icon" href="https://dashboard.babycake.app/pngs/favicon.png"><link rel="preload" href="https://dashboard.babycake.app/font/Averta-Regular.otf" as="font" crossorigin=""><link rel="preload" href="https://dashboard.babycake.app/font/Averta-Bold.otf" as="font" crossorigin=""><meta name="next-head-count" content="6"><link rel="preload" href="./babycakemobile_files/928369a9f202d10b850c.css" as="style"><link rel="stylesheet" href="./babycakemobile_files/928369a9f202d10b850c.css" data-n-g=""><link rel="preload" href="./babycakemobile_files/ad5c1cdec00ff0438c08.css" as="style"><link rel="stylesheet" href="./babycakemobile_files/ad5c1cdec00ff0438c08.css" data-n-p=""><noscript data-n-css=""></noscript><link rel="preload" href="./babycakemobile_files/webpack-f1bc180dce4fa183de37.js.download" as="script"><link rel="preload" href="./babycakemobile_files/framework.2c95416933db55a1b53c.js.download" as="script"><link rel="preload" href="./babycakemobile_files/commons.370c8632510902f32526.js.download" as="script"><link rel="preload" href="./babycakemobile_files/main-2974fa8d4e104667df0d.js.download" as="script"><link rel="preload" href="./babycakemobile_files/29107295.963c7caf1f3ca1ba3cc5.js.download" as="script"><link rel="preload" href="./babycakemobile_files/71247caf95475e3ea7f9a0f8a30beb258b23d005.351b7b41306c242ce875.js.download" as="script"><link rel="preload" href="./babycakemobile_files/_app-8cdf670c0fcc1a06d4e7.js.download" as="script"><link rel="preload" href="./babycakemobile_files/84afd3ba861b78d1ee8fdd5020b73ae8180797d2.7930c329d3cb4859cb0d.js.download" as="script"><link rel="preload" href="./babycakemobile_files/index-badda60eebf163777576.js.download" as="script"><script src="./babycakemobile_files/widgets.js.download" async=""></script><style data-jss="" data-meta="MuiTouchRipple">
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.MuiTouchRipple-ripple {
+  opacity: 0;
+  position: absolute;
+}
+.MuiTouchRipple-rippleVisible {
+  opacity: 0.3;
+  animation: MuiTouchRipple-keyframes-enter 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+}
+.MuiTouchRipple-ripplePulsate {
+  animation-duration: 200ms;
+}
+.MuiTouchRipple-child {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 1;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+.MuiTouchRipple-childLeaving {
+  opacity: 0;
+  animation: MuiTouchRipple-keyframes-exit 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.MuiTouchRipple-childPulsate {
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: MuiTouchRipple-keyframes-pulsate 2500ms cubic-bezier(0.4, 0, 0.2, 1) 200ms infinite;
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-enter {
+  0% {
+    opacity: 0.1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-exit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+</style><style data-jss="" data-meta="MuiButtonBase">
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+@media print {
+  .MuiButtonBase-root {
+    -webkit-print-color-adjust: exact;
+  }
+}
+</style><style data-jss="" data-meta="MuiButton">
+.MuiButton-root {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.MuiButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-root:hover.Mui-disabled {
+  background-color: transparent;
+}
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.MuiButton-text {
+  padding: 6px 8px;
+}
+.MuiButton-textPrimary {
+  color: #3f51b5;
+}
+.MuiButton-textPrimary:hover {
+  background-color: rgba(63, 81, 181, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-textPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-textSecondary {
+  color: #f50057;
+}
+.MuiButton-textSecondary:hover {
+  background-color: rgba(245, 0, 87, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-textSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 5px 15px;
+}
+.MuiButton-outlined.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiButton-outlinedPrimary {
+  color: #3f51b5;
+  border: 1px solid rgba(63, 81, 181, 0.5);
+}
+.MuiButton-outlinedPrimary:hover {
+  border: 1px solid #3f51b5;
+  background-color: rgba(63, 81, 181, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-outlinedPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlinedSecondary {
+  color: #f50057;
+  border: 1px solid rgba(245, 0, 87, 0.5);
+}
+.MuiButton-outlinedSecondary:hover {
+  border: 1px solid #f50057;
+  background-color: rgba(245, 0, 87, 0.04);
+}
+.MuiButton-outlinedSecondary.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-outlinedSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-contained {
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  background-color: #e0e0e0;
+}
+.MuiButton-contained:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+  background-color: #d5d5d5;
+}
+.MuiButton-contained.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.MuiButton-contained:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.MuiButton-contained.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+@media (hover: none) {
+  .MuiButton-contained:hover {
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+  }
+}
+.MuiButton-contained:hover.Mui-disabled {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #3f51b5;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: #303f9f;
+}
+@media (hover: none) {
+  .MuiButton-containedPrimary:hover {
+    background-color: #3f51b5;
+  }
+}
+.MuiButton-containedSecondary {
+  color: #fff;
+  background-color: #f50057;
+}
+.MuiButton-containedSecondary:hover {
+  background-color: #c51162;
+}
+@media (hover: none) {
+  .MuiButton-containedSecondary:hover {
+    background-color: #f50057;
+  }
+}
+.MuiButton-disableElevation {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:hover {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-focusVisible {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:active {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-disabled {
+  box-shadow: none;
+}
+.MuiButton-colorInherit {
+  color: inherit;
+  border-color: currentColor;
+}
+.MuiButton-textSizeSmall {
+  padding: 4px 5px;
+  font-size: 0.8125rem;
+}
+.MuiButton-textSizeLarge {
+  padding: 8px 11px;
+  font-size: 0.9375rem;
+}
+.MuiButton-outlinedSizeSmall {
+  padding: 3px 9px;
+  font-size: 0.8125rem;
+}
+.MuiButton-outlinedSizeLarge {
+  padding: 7px 21px;
+  font-size: 0.9375rem;
+}
+.MuiButton-containedSizeSmall {
+  padding: 4px 10px;
+  font-size: 0.8125rem;
+}
+.MuiButton-containedSizeLarge {
+  padding: 8px 22px;
+  font-size: 0.9375rem;
+}
+.MuiButton-fullWidth {
+  width: 100%;
+}
+.MuiButton-startIcon {
+  display: inherit;
+  margin-left: -4px;
+  margin-right: 8px;
+}
+.MuiButton-startIcon.MuiButton-iconSizeSmall {
+  margin-left: -2px;
+}
+.MuiButton-endIcon {
+  display: inherit;
+  margin-left: 8px;
+  margin-right: -4px;
+}
+.MuiButton-endIcon.MuiButton-iconSizeSmall {
+  margin-right: -2px;
+}
+.MuiButton-iconSizeSmall > *:first-child {
+  font-size: 18px;
+}
+.MuiButton-iconSizeMedium > *:first-child {
+  font-size: 20px;
+}
+.MuiButton-iconSizeLarge > *:first-child {
+  font-size: 22px;
+}
+</style><link as="script" rel="prefetch" href="./babycakemobile_files/84afd3ba861b78d1ee8fdd5020b73ae8180797d2.7930c329d3cb4859cb0d.js.download"><link as="script" rel="prefetch" href="./babycakemobile_files/index-badda60eebf163777576.js.download"><script charset="utf-8" src="./babycakemobile_files/moment_timeline.126ccbec3f6038135ffb4feab4485043.js.download"></script><script charset="utf-8" src="./babycakemobile_files/timeline.f0018d9150722c67abdd0e6bbab13587.js.download"></script></head><body data-theme="light"><div id="__next"><div class="Container_container__2r472"><div class="Sidebar_sidebar__3Dg1B"><div class="Sidebar_largeLogoWrapper__TQRvJ"><img src="./babycakemobile_files/logo-baby-new.png"></div><div class="Sidebar_smallLogoWrapper__1expU"><img src="./babycakemobile_files/baby-cake.png"></div><div class="Sidebar_body__H7rTw"><div class="Sidebar_item__mDd_S Sidebar_active__2CfjX"><img src="./babycakemobile_files/dashboard.svg"><span class="Sidebar_label__JFkLX">Dashboard</span></div><div class="Sidebar_item__mDd_S"><img src="./babycakemobile_files/calculator.svg"><span class="Sidebar_label__JFkLX">Calculator</span></div><div class="Sidebar_item__mDd_S"><img src="./babycakemobile_files/swap.svg"><span class="Sidebar_label__JFkLX">Swap</span></div><div class="Sidebar_item__mDd_S"><img src="./babycakemobile_files/chart.svg"><span class="Sidebar_label__JFkLX">Chart</span></div><div class="Sidebar_item__mDd_S"><img src="./babycakemobile_files/website.svg"><span class="Sidebar_label__JFkLX">Website</span></div></div><div class="Sidebar_footer__1sFa1"><img src="./babycakemobile_files/twitter.svg"><img src="./babycakemobile_files/telegram.svg"></div></div><div class="index_content__35pjB"><div class="Header_header__2LTTX"><div class="Header_wrapper__2A61N"><div class="Header_actions__164Tc"><button class="MuiButtonBase-root MuiButton-root MuiButton-text Button_button__2dM_u Button_disabled__f1fyD Header_claim__7UbsD" tabindex="0" type="button"><span class="MuiButton-label">Claim $CAKE Rewards</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text Button_button__2dM_u Header_connect__13rNt" tabindex="0" type="button"><span class="MuiButton-label">Connect Wallet</span><span class="MuiTouchRipple-root"></span></button></div></div></div><div class="index_content_layout__CWEvw"><div class="index_main__3P-zj"><div class="TotalRewards_rewards__1_vX9"><div class="TotalRewards_item__2sRxx"><img src="./babycakemobile_files/present.svg"><p>Total CAKE Rewards:&nbsp;<span class="TotalRewards_value__YkAlH">676,319.664</span></p></div><div class="TotalRewards_item__2sRxx"><img src="./babycakemobile_files/dollar.svg"><p>Value:&nbsp;<span class="TotalRewards_value__YkAlH">$<!-- -->13,972,764.257</span></p></div></div><div class="Rewards_rewards__3tjc8"><div class="Rewards_invest__2ACU5"><p class="Rewards_title__3Qee5">Your Balance</p><p>Your BabyCake Balance: <b>0</b></p><p>Claimable Cake Rewards: <b>0</b></p><p>Value: <b>$<!-- -->0</b></p><p>Total Distributed Cake Rewards: <b>0</b></p></div><div class="Rewards_invest__2ACU5"><p class="Rewards_pinkTitle__2H-8F">Auto-Reinvestment Pool</p><p>Initial Invested BabyCake: <b>0</b></p><p>Claimable BabyCake Rewards: <b>0</b></p><p>Total Invested BabyCake:<!-- --> <b>0</b></p><div class="Rewards_openLink__1-3Dd"><span>Open Auto Reinvestment Panel</span><img src="./babycakemobile_files/open-link.svg"></div></div></div><div class="Statistics_statistics__1kY8x"><p>Total Supply: <b>100,000,000,000</b></p><p>Burned so far: <b>1,558,172,625.179</b></p><p>Circulating supply:<!-- --> <b>98,441,827,374.821</b></p><p>MarketCap: <b>$<!-- -->11,502,160.877</b></p><p>Estimated 24H Trading VOLUME:&nbsp;<b>$<!-- -->127,288</b></p><p>LP value:&nbsp;<b>$<!-- -->3,876,918.402</b></p><div class="Statistics_openLink__3J3SP">Holders:&nbsp;<b>56,027</b><img src="./babycakemobile_files/open-link.svg"></div></div><div class="CoinWidget_widgets__3eiYb"><div class="CoinWidget_widget__13aht"><img class="CoinWidget_babycakeImg__16Vsc" src="./babycakemobile_files/baby-cake.png"><div class="CoinWidget_item__UUWk1"><p class="CoinWidget_coinName__30j2d">BabyCake</p><p class="CoinWidget_coinPrice__32WPq">$0.00011527</p></div><div class="CoinWidget_greenTicker__25zX0">18.28%</div></div><div class="CoinWidget_widget__13aht"><img class="" src="./babycakemobile_files/pancakeswap.png"><div class="CoinWidget_item__UUWk1"><p class="CoinWidget_coinName__30j2d">PancakeSwap</p><p class="CoinWidget_coinPrice__32WPq">$20.66</p></div><div class="CoinWidget_greenTicker__25zX0">11.47%</div></div><div class="CoinWidget_widget__13aht"><img class="" src="./babycakemobile_files/binance-coin.png"><div class="CoinWidget_item__UUWk1"><p class="CoinWidget_coinName__30j2d">Binance Coin</p><p class="CoinWidget_coinPrice__32WPq">$463.25</p></div><div class="CoinWidget_greenTicker__25zX0">13.13%</div></div></div></div><div class="TwitterWidget_twitter__2yCSx"><div><div twdiv="yes"><iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered" style="position: static; visibility: visible; display: inline-block; width: 100%; height: 100%; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;" data-widget-id="profile:babycakebsc" title="Twitter Timeline" src="./babycakemobile_files/saved_resource.html"></iframe></div></div></div></div><div class="Footer_footer__1MlTd"><div class="Footer_center__agUDo"><a href="https://coinmarketcap.com/currencies/baby-cake/" target="_blank"><img src="./babycakemobile_files/light-cmc.svg" class="Footer_link__DBs2K"></a><a href="https://bscscan.com/token/0xdb8d30b74bf098af214e862c90e647bbb1fcc58c" target="_blank"><img src="./babycakemobile_files/light-bscscan.svg" class="Footer_link__DBs2K"></a><a href="https://www.coinbase.com/price/baby-cake" target="_blank"><img src="./babycakemobile_files/coinbase.svg" class="Footer_link__DBs2K"></a><a href="https://www.coingecko.com/en/coins/baby-cake" target="_blank"><img src="./babycakemobile_files/coingecko.svg" class="Footer_link__DBs2K"></a><a href="https://www.dextools.io/app/pancakeswap/pair-explorer/0xb5e33fe13a821e55ed33c884589a804b1b4f6fd8" target="_blank"><img src="./babycakemobile_files/dextools.svg" class="Footer_link__DBs2K"></a><a href="https://poocoin.app/tokens/0xdb8d30b74bf098af214e862c90e647bbb1fcc58c" target="_blank"><img src="./babycakemobile_files/poocoin.svg" class="Footer_link__DBs2K"></a></div></div></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"GbH-xLOBbrMPVovnqdx-T","nextExport":true,"autoExport":true,"isFallback":false}</script><script nomodule="" src="./babycakemobile_files/polyfills-3efe5e85073a520dc476.js.download"></script><script src="./babycakemobile_files/webpack-f1bc180dce4fa183de37.js.download" async=""></script><script src="./babycakemobile_files/framework.2c95416933db55a1b53c.js.download" async=""></script><script src="./babycakemobile_files/commons.370c8632510902f32526.js.download" async=""></script><script src="./babycakemobile_files/main-2974fa8d4e104667df0d.js.download" async=""></script><script src="./babycakemobile_files/29107295.963c7caf1f3ca1ba3cc5.js.download" async=""></script><script src="./babycakemobile_files/71247caf95475e3ea7f9a0f8a30beb258b23d005.351b7b41306c242ce875.js.download" async=""></script><script src="./babycakemobile_files/_app-8cdf670c0fcc1a06d4e7.js.download" async=""></script><script src="./babycakemobile_files/84afd3ba861b78d1ee8fdd5020b73ae8180797d2.7930c329d3cb4859cb0d.js.download" async=""></script><script src="./babycakemobile_files/index-badda60eebf163777576.js.download" async=""></script><script src="./babycakemobile_files/_buildManifest.js.download" async=""></script><script src="./babycakemobile_files/_ssgManifest.js.download" async=""></script><next-route-announcer><p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p></next-route-announcer><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./babycakemobile_files/widget_iframe.58065ae230495f5d9e4b6a916472b2c1.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./babycakemobile_files/saved_resource(1).html"></iframe></body></html>

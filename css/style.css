@@ -3,53 +3,90 @@
 }
 .allsec{
   
-    padding-top: 150px;
-    float: left;
+    padding-top: 200px;
+
     width: 82%;
 
 }
-
-
 .twit-scroll p{
     font-size: 13px;
     padding-bottom: 5px;
+    color: rgb(56, 56, 56);
 
+}
+#twit-header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 10px;
+    top: 0;
+    width: 100%;
+    transform: 0.2s;
+    border-bottom: solid 1.5px rgb(165, 165, 165);
+    margin-top: 0px;
+    
 }
 
 
 .twittersec{
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 200px;
     width: 26%;
+    max-width: 100%;
     background-color: white;
     padding: 20px 20px 100px 40px;
     border-radius: 30px;
-    display: inline-block;
+    display: block;
     float: right;
-    margin-top: -1143px;
-    height: 1024px;
+    margin-top: -1180px;
+    height: 1062px;
     margin-right: 50px;
+    cursor: pointer;
 }
+
+.img1:hover{
+    background-color: rgb(240, 240, 240);
+}
+
 
 .tweet-head{
     font-size: 40px;
     margin-bottom: 0px;
     background-color: white;
+    margin-top: 0px;
+    color: rgb(122, 122, 122);
+}
+
+.userHeader{
+    display: flex;
+    align-items: center;
 
 }
+.userHeader img, .userHeader h2{
+    margin: 0;
+}
+
+
+.withlink{
+    display: flex;
+    align-items: center;
+}
+
 
 .tweet-id{
     width: 100%;
-    margin-top: 0px;
+    margin-top: 37px;
+    margin-left: 15px;
     font-size: 13px;
     display: inline-block;
     padding-bottom: 20px;
-    border-bottom: solid 1.5px rgb(165, 165, 165);
+    font-weight: bold;
+    color: rgb(3, 103, 218);
+  
 }
 
 .pic1{
-    height: 400px;
+    height: 370px;
     width: 450px;
     margin-bottom: 10px;
     padding-bottom: 60px;
@@ -65,7 +102,7 @@
 
 }
 .pic3{
-    height: 400px;
+    height: 250px;
     width: 450px;
     margin-bottom: 10px;
     padding-bottom: 60px;
@@ -74,7 +111,7 @@
 
 }
 .pic4{
-    height: 400px;
+    height: 300px;
     width: 450px;
     margin-bottom: 10px;
     padding-bottom: 60px;
@@ -83,7 +120,17 @@
 
 }
 .pic5{
-    height: 400px;
+    height: 290px;
+    width: 450px;
+    margin-bottom: 10px;
+    padding-bottom: 60px;
+    border-bottom: solid 1.5px rgb(165, 165, 165);
+
+
+}
+
+.pic6{
+    height: 290px;
     width: 450px;
     margin-bottom: 10px;
     padding-bottom: 60px;
@@ -112,12 +159,13 @@
 }
 
 .twit-scroll h3{
-    font-size: 15px;
-    display: block;
-    margin-left: 50px;
-    margin-top: -13px;
-    color: gray;
-    font-weight:lighter;
+
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 55px;
+    color: rgb(134, 134, 134);
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 .twit-scroll {
@@ -204,7 +252,6 @@ margin-right: 35px;
 
 }
 
-
 .side_bar{
     width: 300px;
     background-color: transparent;
@@ -236,6 +283,7 @@ margin-right: 35px;
     color: rgb(9, 10, 20);
     cursor: pointer;
     letter-spacing: 1px;
+    padding: 15px 10px 15px 10px;
 
 }
 .side_bar ul li a i {
@@ -249,14 +297,9 @@ margin-right: 35px;
 .side_bar ul li :hover{
     border-radius: 10px;
     background-color: rgb(228, 227, 227);
-    padding: 10px 10px 10px 10px;
     transition: 500ms;
-    
-    
-    
-
-
-    
+    font-size:  18px;
+   
 
 }
 
@@ -266,7 +309,7 @@ margin-right: 35px;
 }
 
 .first{
-display: block;
+display: inline-block;
 }
 
 
@@ -274,10 +317,10 @@ display: block;
 .section-1{
     margin-left: 360px;
     background-color: white;
-    padding: 30px 0px 0px 40px;
+    padding: 35px 0px 40px 40px;
     border-radius: 30px;
     height: 180px;
-    width: 56%;
+    max-width: 100%;
 
   
 }
@@ -297,21 +340,29 @@ display: block;
     margin-left: 5px;;
 }
 
+.flex-2nd{
+    display: inline-block;
+    max-width: 100%;
+
+}
 
 .second{
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    
+
 }
 
 .section-2{
     margin-top: 20px;
     margin-left: 360px;
     background-color: white;
-    padding: 35px 0px 40px 40px;
+    padding: 35px 125px 40px 40px;
     border-radius: 30px;
     height: 220px;
-    width: 26%;
-    float: left;
+    max-width: 100%;
+  
+
 }
 .section-2 img{
     position: absolute;
@@ -339,11 +390,12 @@ display: block;
     margin-top: 20px;
     margin-left: 20px;
     background-color: white;
-    padding: 35px 0px 40px 40px;
+    padding: 35px 125px 40px 40px;
     border-radius: 30px;
     height: 220px;
-    width: 26%;
-    float: left;
+    max-width: 100%;
+  
+    
 }
 .section-3 p{
     color:rgb(71, 64, 64);
@@ -364,17 +416,17 @@ display: block;
 }
 
 .third{
-    display: block;
+    display:inline-block;
+ 
+
 }
 .section-4{
-    margin-top: 20px;
     margin-left: 360px;
     background-color: white;
-    padding: 35px 0px 55px 40px;
+    padding: 20px 550px 40px 35px;
     border-radius: 30px;
-    height: 255px;
-    width: 56%;
-    float: left;
+    max-width: 100%;
+    margin-top: 20px;
 }
 .section-4 img{
     position: absolute;
@@ -424,7 +476,8 @@ display: block;
     padding: 35px 0px 30px 40px;
     border-radius: 30px;
     height: 170px;
-    width: 16%;
+    width: 20%;
+    max-width: 100%;
 
 }
 .section-6{
@@ -434,7 +487,8 @@ display: block;
     padding: 35px 0px 30px 40px;
     border-radius: 30px;
     height: 170px;
-    width: 16%;
+    width: 20%;
+    max-width: 100%;
 
 }
 .section-7{
@@ -444,7 +498,8 @@ display: block;
     padding: 35px 0px 30px 40px;
     border-radius: 30px;
     height: 170px;
-    width: 16%;
+    width: 20%;
+    max-width: 100%;
 
 }
 .numberbtn{
@@ -459,18 +514,27 @@ display: block;
 }
 
 
-.logosfooter{
-    display: flex;
-    margin-right: 800px;
-    
+.fifth-logos{
     
 }
-.fifth5th{
 
-    float: right;
+.logosfooter{
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 1000px;
+    margin-left: 450px;;
+    max-width: 100%;
+
+
+
+}
+  
+
+.fifth5th{
+
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
     
 }
 
@@ -523,36 +587,217 @@ display: block;
     margin-bottom: 50px;
 }
 
-@media (min-width: 380px) and (max-width : 1024px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---MEDIA QUERIES -----*/
+
+
+/* ---IPHONE-X-----*/    
+@media screen (min-width: 375px) and (max-width: 400px){
     
-    *{
-        font-family: 'Poppins';
-    }
-    .allsec{
-      
-        padding-top: 150px;
-        float: left;
-        width: 82%;
+
+    
+    .allsec{ 
+        padding-top: 200px;
+
     
     }
-    .apitweeter{
+    .twit-scroll p{
+        font-size: 13px;
+        padding-bottom: 5px;
+        color: rgb(56, 56, 56);
+    
+    }
+    #twit-header{
         display: flex;
-    
+        align-items: center;
+        background-color: white;
+        padding: 10px 10px;
+        top: 0;
+        width: 100%;
+        transform: 0.2s;
+        border-bottom: solid 1.5px rgb(165, 165, 165);
+        margin-top: 0px;
+        
     }
     
-    .twittersec{ 
+    
+    .twittersec{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        width: 26%;
+        max-width: 100%;
         background-color: white;
         padding: 20px 20px 100px 40px;
         border-radius: 30px;
-        height: 220px;
-        width: 26%;
-        display: inline-block;
-        vertical-align: top;
-        float: right;
-        clear: both;
+        display: block;
         margin-top: 0px;
-        height: 1075px;
+        height: 1000px;
         margin-right: 50px;
+        cursor: pointer;
+    }
+    
+    .img1:hover{
+        background-color: rgb(240, 240, 240);
+    }
+    
+    
+    .tweet-head{
+        font-size: 40px;
+        margin-bottom: 0px;
+        background-color: white;
+        margin-top: 0px;
+        color: rgb(122, 122, 122);
+    }
+    
+    .userHeader{
+        display: flex;
+        align-items: center;
+    
+    }
+    .userHeader img, .userHeader h2{
+        margin: 0;
+    }
+    
+    
+    .withlink{
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .tweet-id{
+        width: 100%;
+        margin-top: 37px;
+        margin-left: 15px;
+        font-size: 13px;
+        display: inline-block;
+        padding-bottom: 20px;
+        font-weight: bold;
+        color: rgb(3, 103, 218);
+      
+    }
+    
+    .pic1{
+        height: 370px;
+        width: 450px;
+        margin-bottom: 10px;
+        padding-bottom: 60px;
+        border-bottom: solid 1.5px rgb(165, 165, 165);
+    }
+    .pic2{
+    
+        height: 350px;
+        width: 450px;
+        margin-bottom: 10px;
+        padding-bottom: 60px;
+        border-bottom: solid 1.5px rgb(165, 165, 165);
+    
+    }
+    .pic3{
+        height: 250px;
+        width: 450px;
+        margin-bottom: 10px;
+        padding-bottom: 60px;
+        border-bottom: solid 1.5px rgb(165, 165, 165);
+    
+    
+    }
+    .pic4{
+        height: 300px;
+        width: 450px;
+        margin-bottom: 10px;
+        padding-bottom: 60px;
+        border-bottom: solid 1.5px rgb(165, 165, 165);
+    
+    
+    }
+    .pic5{
+        height: 290px;
+        width: 450px;
+        margin-bottom: 10px;
+        padding-bottom: 60px;
+        border-bottom: solid 1.5px rgb(165, 165, 165);
+    
+    
+    }
+    
+    .pic6{
+        height: 290px;
+        width: 450px;
+        margin-bottom: 10px;
+        padding-bottom: 60px;
+        border-bottom: solid 1.5px rgb(165, 165, 165);
+    
+    
+    }
+    .twit-icon{
+        border-radius: 30px; 
+        height: 35px; 
+        width: 40px;
+        margin-top: 20px;
+        display: inline-block;
+    
+    
+    }
+    
+    .posting{
+        height: 500px;
+        width: 450px;
+    }
+    .twit-scroll h2{
+        display: inline-block;
+        font-size: 18px;
+        margin-left: 8px;
+    }
+    
+    .twit-scroll h3{
+    
+        font-size: 12px;
+        font-weight: lighter;
+        margin-left: 55px;
+        color: rgb(134, 134, 134);
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .twit-scroll {
+        margin-top: 80px;
+    }
+    
+    
+    
+    .firstapi{
+        width: 100%;
     }
     
     
@@ -566,7 +811,8 @@ display: block;
     .headermain{
     display: flex;
     float: right;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-right: 35px;
     
         
     }
@@ -628,7 +874,6 @@ display: block;
     
     }
     
-    
     .side_bar{
         width: 300px;
         background-color: transparent;
@@ -660,6 +905,7 @@ display: block;
         color: rgb(9, 10, 20);
         cursor: pointer;
         letter-spacing: 1px;
+        padding: 15px 10px 15px 10px;
     
     }
     .side_bar ul li a i {
@@ -672,8 +918,10 @@ display: block;
     
     .side_bar ul li :hover{
         border-radius: 10px;
-        color: rgb(172, 5, 102);
-        
+        background-color: rgb(228, 227, 227);
+        transition: 500ms;
+        font-size:  18px;
+       
     
     }
     
@@ -683,7 +931,7 @@ display: block;
     }
     
     .first{
-    display: block;
+    display: inline-block;
     }
     
     
@@ -691,10 +939,11 @@ display: block;
     .section-1{
         margin-left: 360px;
         background-color: white;
-        padding: 30px 0px 0px 40px;
+        padding: 35px 0px 40px 40px;
         border-radius: 30px;
         height: 180px;
-        width: 56%;
+        max-width: 100%;
+        width: 90%;
     
       
     }
@@ -714,21 +963,30 @@ display: block;
         margin-left: 5px;;
     }
     
+    .flex-2nd{
+        max-width: 100%;
+    
+    }
     
     .second{
-        display: flex;
-        flex-direction: column;
+        display: block;
+        width: 100%;
+        width: 85%;
+        
+    
     }
     
     .section-2{
         margin-top: 20px;
         margin-left: 360px;
         background-color: white;
-        padding: 35px 0px 40px 40px;
+        padding: 35px 125px 40px 40px;
         border-radius: 30px;
         height: 220px;
-        width: 56%;
-        float: left;
+        max-width: 100%;
+        width: 85%;
+      
+    
     }
     .section-2 img{
         position: absolute;
@@ -756,11 +1014,13 @@ display: block;
         margin-top: 20px;
         margin-left: 360px;
         background-color: white;
-        padding: 35px 0px 40px 40px;
+        padding: 35px 125px 40px 40px;
         border-radius: 30px;
         height: 220px;
-        width: 56%;
-        float: left;
+        max-width: 100%;
+        width: 85%;
+      
+        
     }
     .section-3 p{
         color:rgb(71, 64, 64);
@@ -781,17 +1041,17 @@ display: block;
     }
     
     .third{
-        display: block;
+        display:block;
+        margin-top: 1200px;
+        width: 85px;
+    
     }
     .section-4{
-        margin-top: 20px;
         margin-left: 360px;
         background-color: white;
-        padding: 35px 0px 55px 40px;
+        padding: 20px 550px 40px 35px;
         border-radius: 30px;
-        height: 255px;
-        width: 56%;
-        float: left;
+        max-width: 100%;
     }
     .section-4 img{
         position: absolute;
@@ -803,6 +1063,7 @@ display: block;
         font-size: 15px;
         margin-left: 20px;
         margin-bottom: 5px;
+    
     }
     
     .section-4 h2{
@@ -838,49 +1099,71 @@ display: block;
         margin-top: 20px;
         margin-left: 360px;
         background-color: white;
-        padding: 35px 0px 30px 40px;
+        padding: 35px 550px 30px 40px;
         border-radius: 30px;
-        height: 220px;
-        width: 56%;
+        height: 170px;
+        width: 20%;
+        max-width: 100%;
     
     }
     .section-6{
         margin-top: 20px;
         margin-left: 360px;
         background-color: white;
-        padding: 35px 0px 30px 40px;
+        padding: 35px 550px 30px 40px;
         border-radius: 30px;
-        height: 220px;
-        width: 56%;
+        height: 170px;
+        width: 20%;
+        max-width: 100%;
     
     }
     .section-7{
         margin-top: 20px;
         margin-left: 360px;
         background-color: white;
-        padding: 35px 0px 30px 40px;
+        padding: 35px 550px 30px 40px;
         border-radius: 30px;
-        height: 220px;
-        width: 56%;
+        height: 170px;
+        width: 20%;
+        max-width: 100%;
     
     }
+    .numberbtn{
+        background-color:  rgb(231, 15, 15);
+        color: white;
+        border-color: transparent;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        display: block;
+        margin-top: 10px;
+    }
     
-    .fifth5th{
-    
+    .logosfooter{
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-left: 450px;;
+        max-width: 100%;
     
     
+    
+    }
+      
+    
+    .fifth5th{
+    
+        max-width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
         
     }
     
     .fifth5th img{
         width: 40px;
         height: 45px;
-        display: inline-block;
-        margin-left: 20px;
-        margin-top: 70px;
+        margin-left: 15px;
+        margin-top: 90px;
     
         
     }
@@ -890,7 +1173,7 @@ display: block;
         border-top: solid 1.5px rgb(165, 165, 165);
         width: 271px;
         padding-top: 50px;
-        margin-top: 550px;
+        margin-top: 250px;
         
     }
     .footer img{
@@ -899,18 +1182,6 @@ display: block;
         width: 40px;
         height: 45px;
         cursor: pointer;
-      
-    }
-    
-    
-    .tweetersec{
-        margin-left: 360px;
-        background-color: white;
-        padding: 30px 0px 0px 40px;
-        border-radius: 30px;
-        height: 180px;
-        width: 55%;
-    
       
     }
     .tweetersec img{
@@ -925,17 +1196,38 @@ display: block;
         margin-bottom: 50px;
     }
 }
-.withLink{
-    display: flex;
-    align-items: center;
-}
-.userHeader{
-    display: flex;
-    align-items: center;
-}
-.userHeader img, .userHeader h2{
-    margin: 0;
-}
-.twit-scroll > h3{
-    margin:10px 0
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
